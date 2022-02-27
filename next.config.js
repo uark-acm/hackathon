@@ -6,8 +6,8 @@ const nextConfig = {
   reactStrictMode: true,
   assetPrefix: isProd ? '/hackathon/' : '',
   images: {
-    loader: "custom",
-    // TODO: Use the new ACM ImgIX account for optimization
+    loader: "imgix",
+    path: "https://uark-acm.imgix.net"
   }
 }
 
