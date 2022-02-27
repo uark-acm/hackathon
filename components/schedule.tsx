@@ -26,9 +26,9 @@ const Schedule = () => {
         return (
             <ul>
                 {
-                    schedule.map(entry => {
+                    schedule.map((entry, index) => {
                         return (
-                            <li>
+                            <li key={index}>
                                 <span>{entry.time}</span> - {entry.text}
                             </li>
                         )
