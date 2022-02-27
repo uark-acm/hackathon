@@ -1,2 +1,46 @@
 @import "./index.module.scss";
 
+.schedule  {
+    background: linear-gradient(180deg, #EDBA6D -57.84%, #261818 50.1%);
+    padding: 64px;
+    color: $background_alt;
+
+    .sectionTitle {
+        margin-bottom: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .day {
+            margin: 64px;
+
+            h4 {
+                font-weight: 300;
+                font-size: 48px;
+                margin: 0;
+            }
+    
+            p {
+                margin: -16px 0 0;
+                font-family: Lato;
+                font-weight: 200;
+                font-size: 24px;
+                white-space: pre;
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                }
+
+                span {
+                    font-family: divenire-mono, monospace;
+                }
+            }
+        }
+    }
+
+}
