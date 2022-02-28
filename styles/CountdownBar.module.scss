@@ -1,2 +1,18 @@
 @import "./index.module.scss";
 
+.bar {
+    height: 128px;
+    background: $background;
+    color: $background_alt;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-family: Continuo, 'Times New Roman', serif;
+        font-size: 30vmin;
+        font-size: min(128px, 30vw);
+        line-height: 0;
+        margin: 0 64px;
+        font-weight: 400;
+    }
+}

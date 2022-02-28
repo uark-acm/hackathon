@@ -32,6 +32,7 @@ const CountdownBar = () => {
     });
 
     return (
+        <div className={styles.bar}>
             <h1>{`${days}:${hours}:${minutes}:${seconds}`}</h1>
         </div>
     );
