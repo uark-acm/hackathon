@@ -17,4 +17,18 @@
         line-height: 1.2em;
         flex: 1;
     }
+
+    .date {
+        margin: 0 48px;
+        font-size: 48px;
+        font-weight: 100;
+        float: right;
+        color: $background_alt;
+        line-height: 1em;
+        text-align: right;
+        
+        span {
+            font-weight: 400;
+        }
+    }
 }
