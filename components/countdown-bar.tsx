@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { startDate } from '../EDITME';
+import { endDate, startDate } from '../EDITME';
 import styles from '../styles/CountdownBar.module.scss';
 
 const CountdownBar = () => {
@@ -24,6 +24,10 @@ const CountdownBar = () => {
         }
     }
     const [{ days, hours, minutes, seconds}, setTimeLeft] = useState(calculateTimeLeft());
+    const dateRange = (new Date(startDate)).toLocaleDateString("en-us", {
+        month: "long",
+        day: "numeric"
+    }) + "-" + +new Date(endDate).getDate();
 
     useEffect(() => {
         setTimeout(() => {
@@ -34,6 +38,11 @@ const CountdownBar = () => {
     return (
         <div className={styles.bar}>
             <h1>{`${days}:${hours}:${minutes}:${seconds}`}</h1>
+            <div>
+                <div className={styles.date}>
+                    <span>{dateRange}</span> {+new Date(startDate).getFullYear()}
+                </div>
+            </div>
         </div>
     );
 }
