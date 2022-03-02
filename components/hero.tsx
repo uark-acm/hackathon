@@ -15,8 +15,8 @@ const Hero = () => {
         return (
             <h2>
                 {
-                    Array.from(text).map(char => {
-                        return <div>{char}</div>
+                    Array.from(text).map((char, index) => {
+                        return <div key={index}>{char}</div>
                     })
                 }
             </h2>
