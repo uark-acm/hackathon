@@ -61,6 +61,12 @@ export const day2Schedule = [
     }
 ];
 
+/**
+ * Hero Section Subtitle
+ * This is the text directly underneath the word "HACKATHON" in the first section.
+ */
+export const subtitle = "Presented by JB Hunt and Uark ACM";
+
 
 /* -------------------------------------------------------------------------- */
 /*                                 Site Config                                */
