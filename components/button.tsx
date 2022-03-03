@@ -19,7 +19,7 @@ const Button = (props: {
 
     return (
         <button
-            className={clsx([props.className])}
+            className={clsx([props.className, styles.button])}
             onClick={() => onClick()}
         >
             {props.text}
