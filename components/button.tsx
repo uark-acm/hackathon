@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import _ from 'lodash';
 import React from 'react';
 import styles from '../styles/Button.module.scss';
 
@@ -16,11 +17,13 @@ const Button = (props: {
         onClick = () => {},
         variant = ButtonTypes.primary
     } = props;
+    const otherProps = _.omit(props, ["onClick", "variant", "className", "text"]);
 
     return (
         <button
             className={clsx([props.className, styles.button])}
             onClick={() => onClick()}
+            {...otherProps}
         >
             {props.text}
         </button>
