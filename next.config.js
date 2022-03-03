@@ -1,14 +1,26 @@
 /** @type {import('next').NextConfig} */
 
-const isProd = process.env.NODE_ENV === "production";
+const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 
-const nextConfig = {
-  reactStrictMode: true,
-  assetPrefix: isProd ? '/hackathon/' : '',
-  images: {
-    loader: "imgix",
-    path: "https://uark-acm.imgix.net"
+module.exports = (phase, { defaultConfig }) => {
+  const config = {
+    ...defaultConfig,
+    reactStrictMode: true,
+    images: {
+      loader: "imgix",
+      path: "https://uark-acm.imgix.net"
+    }
+  }
+
+  if (phase === PHASE_DEVELOPMENT_SERVER) {
+    return {
+      ...config,
+      assetPrefix: ""
+    }
+  }
+
+  return {
+    ...config,
+    assetPrefix: "/hackathon/"
   }
 }
-
-module.exports = nextConfig
