@@ -7,7 +7,8 @@ export default {
 
 const Template = (args) => <Button {...args} />
 
-export const button = Template.bind({});
-button.args = {
-    text: "Hello"
+export const Primary = Template.bind({});
+Primary.args = {
+    text: "Hello",
+    variant: "primary"
 }
