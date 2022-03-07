@@ -59,6 +59,29 @@ export const day2Schedule = [
  */
 export const subtitle = "Presented by JB Hunt and Uark ACM";
 
+/**
+ * Event Details Section Title
+ */
+export const detailsTitle = "Hackathon (noun)";
+
+/**
+ * Event Details Section Text
+ * Format: Markdown
+ * This text can be styled using Markdown syntax. It's similar to the syntax used in
+ * Discord for posts and GitHub for READMEs.
+ * Notice the <em> tag surrounding a bit of text. This is not normal Markdown syntax.
+ * The tag is meant to apply some extra color on top of any styling placed on that text.
+ */
+export const detailsText = `
+**The J.B. Hunt Hackathon** is a competition co-hosted by the *Association of Computing Machinery (ACM)* at the *University of Arkansas*. It’s an overnight software engineering competition that takes place every semester.
+
+**All students are welcome** to take part regardless of school, education level, or major. **All majors and backgrounds are welcome!** Students have a chance to use their skills to create a collaborative project within 24 hours. 
+
+Teams compete to develop a working prototype to present in front of a panel of judges. **Judges from different technical backgrounds** are sourced from different companies across NWA.
+
+<em>Join the next Hackathon and push your limits!</em>
+`
+
 
 /* -------------------------------------------------------------------------- */
 /*                                 Site Config                                */
