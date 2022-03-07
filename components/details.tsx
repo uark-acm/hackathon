@@ -6,7 +6,7 @@ const Details = () => {
     return(
         <div>
             <h2 className={styles.sectionTitle}>{detailsTitle}</h2>
-            <ReactMarkdown children={detailsText} />
+            <ReactMarkdown>{detailsText}</ReactMarkdown>
         </div>
     )
 }
