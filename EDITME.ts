@@ -77,8 +77,8 @@ export const detailsTitle = "Hackathon (noun)";
  * Format: Markdown
  * This text can be styled using Markdown syntax. It's similar to the syntax used in
  * Discord for posts and GitHub for READMEs.
- * Notice the <em> tag surrounding a bit of text. This is not normal Markdown syntax.
- * The tag is meant to apply some extra color on top of any styling placed on that text.
+ * Notice the arrow(>) in front of a bit of text. This markdown syntax has been overridden.
+ * The block quote is meant to apply some extra color on top of any styling placed on that text.
  */
 export const detailsText = `
 **The J.B. Hunt Hackathon** is a competition co-hosted by the *Association of Computing Machinery (ACM)* at the *University of Arkansas*. It’s an overnight software engineering competition that takes place every semester.
@@ -87,8 +87,8 @@ export const detailsText = `
 
 Teams compete to develop a working prototype to present in front of a panel of judges. **Judges from different technical backgrounds** are sourced from different companies across NWA.
 
-<em>Join the next Hackathon and push your limits!</em>
-`
+> Join the next Hackathon and push your limits!
+`;
 
 
 /* -------------------------------------------------------------------------- */
