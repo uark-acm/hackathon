@@ -1,5 +1,13 @@
 // Site templating configs
 
+/* ----------------- Key Settings to edit each Semester ---------------- */
+// startDate
+// endDate
+// day1Schedule
+// day2Schedule
+// registrationLink
+
+
 
 /* -------------------------------------------------------------------------- */
 /*                                   Content                                  */
