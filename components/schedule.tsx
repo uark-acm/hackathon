@@ -29,7 +29,12 @@ const Schedule = () => {
                     schedule.map((entry, index) => {
                         return (
                             <li key={index}>
-                                <span>{entry.time}</span> - {entry.text}
+                                <span>{
+                                    entry.time.length === 7 ?
+                                        ' ' + entry.time
+                                    :
+                                        entry.time
+                                }</span> - {entry.text}
                             </li>
                         )
                     })
