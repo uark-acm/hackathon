@@ -1,8 +1,13 @@
-import styles from "../styles/details.module.scss";
+import ReactMarkdown from "react-markdown";
+import { detailsText, detailsTitle } from "../EDITME";
+import styles from "../styles/Details.module.scss";
 
 const Details = () => {
     return(
-        <p>WIP</p>
+        <div>
+            <h2 className={styles.sectionTitle}>{detailsTitle}</h2>
+            <ReactMarkdown children={detailsText} />
+        </div>
     )
 }
 
