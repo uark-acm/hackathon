@@ -1,5 +1,6 @@
 import { startDate, subtitle } from '../EDITME';
 import styles from '../styles/Hero.module.scss';
+import Button from './button';
 
 const Hero = () => {
     const SeasonText = () => {
@@ -30,6 +31,16 @@ const Hero = () => {
                 <SeasonText />
                 <h1>Hackathon</h1>
                 <h6>{subtitle}</h6>
+                {
+                    new Date(startDate) < new Date() ?
+                        <p>Registration is now closed. Check back later for the next hackathon!</p>
+                    :
+                        <Button
+                            className={styles.cta}
+                            text="Register Now"
+                            variant="primary"
+                        />
+                }
             </div>
         </div>
     );
