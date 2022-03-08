@@ -21,6 +21,8 @@
             width: fit-content;
             box-sizing: content-box;
             position: absolute;
+            height: 100%;
+            width: 100%;
 
             span {
                 position: static;
@@ -35,12 +37,16 @@
             box-shadow: 18px -24px 0 0 $tertiary;
             right: 0;
             z-index: 3;
+            max-height: 14vw;
+            max-width: 17vw;
         }
 
         .image2 {
             box-shadow: -18px -24px 0 0 $tertiary;
-            top: 20%;
+            top: calc(50% - 10vw);
             z-index: 2;
+            height: 20vw;
+            width: 27vw;
         }
 
         .image3 {
@@ -48,6 +54,8 @@
             bottom: 0;
             right: 0;
             z-index: 1;
+            height: 18vw;
+            width: 25vw;
         }
     }
 
