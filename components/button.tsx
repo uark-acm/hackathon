@@ -7,7 +7,7 @@ const Button = (props: {
     className?: string,
     onClick?: () => void,
     text: string,
-    variant?: "primary"
+    variant?: "primary" | "tertiary"
 }) => {
     const {
         onClick = () => {},
@@ -17,7 +17,7 @@ const Button = (props: {
 
     return (
         <button
-            className={clsx([props.className, styles.button])}
+            className={clsx([props.className, styles.button, styles[variant]])}
             onClick={() => onClick()}
             {...otherProps}
         >
