@@ -2,8 +2,8 @@
 
 .bar {
     height: 128px;
-    background: $background;
-    color: $background_alt;
+    background: $secondary;
+    color: $background;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -23,7 +23,6 @@
         font-size: 48px;
         font-weight: 100;
         float: right;
-        color: $background_alt;
         line-height: 1em;
         text-align: right;
         
