@@ -1,1 +1,33 @@
 @import "./index.module.scss";
+
+.footer {
+    background: $secondary;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px 64px;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+        text-align: right;
+        margin: 0;
+        font-size: 24px;
+        font-weight: 200;
+    }
+
+    .logo {
+        height: 100px;
+        width: 200px;
+        box-sizing: border-box;
+        position: relative;
+
+        span img {
+            object-fit: contain;
+        }
+    }
+
+    .button {
+        font-size: 24px;
+    }
+}
