@@ -70,7 +70,7 @@ export const subtitle = "Presented by JB Hunt and Uark ACM";
 /**
  * Event Details Section Title
  */
-export const detailsTitle = "Hackathon (noun)";
+export const detailsTitle = "Hack-a-thon (noun)";
 
 /**
  * Event Details Section Text
