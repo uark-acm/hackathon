@@ -8,10 +8,46 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+    .images,
     .content {
         flex: 1;
+        margin: 64px;
+    }
+
+    .images {
+        position: relative;
+
+        .image1, .image2, .image3 {
+            width: fit-content;
+            box-sizing: content-box;
+            position: absolute;
+
+        span img {
+            object-fit: cover;
+        }
+
+        .image1 {
+            box-shadow: 18px -24px 0 0 $tertiary;
+            right: 0;
+            z-index: 3;
+        }
+
+        .image2 {
+            box-shadow: -18px -24px 0 0 $tertiary;
+            top: 20%;
+            z-index: 2;
+        }
+
+        .image3 {
+            box-shadow: 24px 18px 0 0 $tertiary;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+        }
+    }
+
+    .content {
         margin: auto 64px;
-        vertical-align: middle;
         font-weight: 100;
 
         h2 {
@@ -22,7 +58,6 @@
             margin: 0;
             color: $primary;
             font-weight: bolder;
-
             font-size: 24px;
         }
     }
