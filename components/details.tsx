@@ -4,9 +4,11 @@ import styles from "../styles/Details.module.scss";
 
 const Details = () => {
     return(
-        <div>
-            <h2 className={styles.sectionTitle}>{detailsTitle}</h2>
-            <ReactMarkdown>{detailsText}</ReactMarkdown>
+        <div className={styles.details}>
+            <div className={styles.content}>
+                <h2 className={styles.sectionTitle}>{detailsTitle}</h2>
+                <ReactMarkdown>{detailsText}</ReactMarkdown>
+            </div>
         </div>
     )
 }
