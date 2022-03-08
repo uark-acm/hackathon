@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import CountdownBar from '../components/countdown-bar'
+import Details from '../components/details'
 import Hero from '../components/hero'
 import Schedule from '../components/schedule'
 import styles from '../styles/Home.module.scss'
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Hero />
         <CountdownBar />
+        <Details />
         <Schedule />
       </main>
 
