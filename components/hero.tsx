@@ -1,6 +1,7 @@
 import { startDate, subtitle } from '../EDITME';
-import styles from '../styles/Hero.module.scss';
 import Button from './button';
+import Burst from '../public/img/burst.svg';
+import styles from '../styles/Hero.module.scss';
 
 const Hero = () => {
     const SeasonText = () => {
@@ -27,6 +28,9 @@ const Hero = () => {
 
     return (
         <div className={styles.hero}>
+            <div className={styles.burst}>
+                <Burst />
+            </div>
             <div className={styles.content}>
                 <SeasonText />
                 <h1>Hackathon</h1>

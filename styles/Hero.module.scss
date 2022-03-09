@@ -7,6 +7,28 @@
     font-weight: 400;
     text-align: center;
 
+    .burst {
+        height: 100%;
+        width: 100%;
+        
+        svg {
+            background: radial-gradient(ellipse at center, #CE5937 0%, transparent 70%);
+            width: 80vmin;
+            height: 80vmin;
+            position: absolute;
+            top: calc(50% - 40vmin);
+            left: calc(50% - 40vmin);
+            fill: $secondary;
+            animation: spin 60s linear infinite;
+        }
+
+        @keyframes spin { 
+            100% { 
+                transform:rotate(360deg); 
+            } 
+        }
+    }
+
     .content {
         background: $background;
         height: 50vh;
