@@ -1,8 +1,8 @@
 @import "./index.module.scss";
 
 .details {
-    height: 100vh;
-    min-height: 600px;
+    height: fit-content;
+    min-height: max(600px, 100vh);
     background: $background;
     color: $background_alt;
     display: flex;
@@ -13,6 +13,7 @@
     .content {
         flex: 1;
         margin: 64px;
+        min-width: 300px;
     }
 
     .images {
@@ -78,7 +79,7 @@
         .cta {
             display: flex;
             justify-content: center;
-            margin-top: 32px;
+            margin: 32px 0;
         }
     }
 }
