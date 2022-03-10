@@ -9,7 +9,15 @@ const Footer = () => {
                 <Image layout="fill" src="/img/jbhunt.svg" />
             </div>
             <p>24 hours to code, so grab a duck and join!</p>
-            <Button className={styles.button} variant="tertiary" text="Back to Top ▲" />
+            <Button
+                className={styles.button}
+                variant="tertiary"
+                text="Back to Top ▲"
+                onClick={() => window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })}
+            />
         </footer>
     )
 }
