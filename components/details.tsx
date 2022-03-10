@@ -16,13 +16,13 @@ const Details = () => {
         <div className={styles.details}>
             <div className={styles.images}>
                 <div className={styles.image1}>
-                    <Image layout="fill" src={`/img/${image1Name}`} />
+                    <Image layout="fill" src={`/img/${image1Name}`} alt="" />
                 </div>
                 <div className={styles.image2}>
-                    <Image layout="fill" src={`/img/${image2Name}`} />
+                    <Image layout="fill" src={`/img/${image2Name}`} alt="" />
                 </div>
                 <div className={styles.image3}>
-                    <Image layout="fill" src={`/img/${image3Name}`} />
+                    <Image layout="fill" src={`/img/${image3Name}`} alt="" />
                 </div>
             </div>
             <div className={styles.content}>
