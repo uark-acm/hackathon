@@ -33,7 +33,7 @@ const CountdownBar = () => {
         setTimeout(() => {
             setTimeLeft(calculateTimeLeft());
         }, 1000)
-    });
+    }, []);
 
     return (
         <div className={styles.bar}>
