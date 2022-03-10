@@ -1,7 +1,7 @@
 @import "./index.module.scss";
 
 .hero {
-    background: url("../public/img/hero.jpg");
+    background: $background;
     height: 100vh;
     color: $primary;
     font-weight: 400;
