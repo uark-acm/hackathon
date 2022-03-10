@@ -1,16 +1,16 @@
 // Site templating configs
 
 /* ----------------- Key Settings to edit each Semester ---------------- */
+// registrationLink
 // startDate
 // endDate
 // day1Schedule
 // day2Schedule
-// registrationLink
 
 
 
 /* -------------------------------------------------------------------------- */
-/*                                   Content                                  */
+/*                   CORE SETTINGS (Update every Hackathon)                   */
 /* -------------------------------------------------------------------------- */
 /**
  * Start Date of the competition
@@ -61,6 +61,10 @@ export const day2Schedule = [
     }
 ];
 
+
+/* -------------------------------------------------------------------------- */
+/*                                SITE CONTENT                                */
+/* -------------------------------------------------------------------------- */
 /**
  * Hero Section Subtitle
  * This is the text directly underneath the word "HACKATHON" in the first section.
@@ -89,9 +93,3 @@ Teams compete to develop a working prototype to present in front of a panel of j
 
 > Join the next Hackathon and push your limits!
 `;
-
-
-/* -------------------------------------------------------------------------- */
-/*                                 Site Config                                */
-/* -------------------------------------------------------------------------- */
-// TBD
