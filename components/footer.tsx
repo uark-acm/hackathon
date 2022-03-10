@@ -6,7 +6,14 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
-                <Image layout="fill" src="/img/jbhunt.svg" alt="JB Hunt" />
+                <Image
+                    layout="fill"
+                    src="/img/jbhunt.svg"
+                    alt="JB Hunt"
+                    unoptimized
+                    placeholder="blur"
+                    blurDataURL="/img/jbhunt.svg"
+                />
             </div>
             <p>24 hours to code, so grab a duck and join!</p>
             <Button
