@@ -7,7 +7,7 @@ const Button = (props: {
     className?: string,
     onClick?: () => void,
     text: string,
-    variant?: "primary" | "tertiary"
+    variant?: "primary" | "secondary" | "tertiary"
 }) => {
     const {
         onClick = () => {},

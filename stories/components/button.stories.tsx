@@ -13,6 +13,12 @@ Primary.args = {
     variant: "primary"
 }
 
+export const Secondary = Template.bind({});
+Primary.args = {
+    text: "Hello",
+    variant: "secondary"
+}
+
 export const Tertiary = Template.bind({});
 Tertiary.args = {
   text: "Hello",

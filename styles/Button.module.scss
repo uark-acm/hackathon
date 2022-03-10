@@ -23,6 +23,15 @@
         }
     }
 
+    &.secondary {
+        background: $secondary;
+        color: $background;
+
+        &:hover {
+            background: $background_alt;
+        }
+    }
+
     &.tertiary {
         color: $background;
 
