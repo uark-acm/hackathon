@@ -47,6 +47,13 @@ const Hero = () => {
                         />
                 }
             </div>
+            <div className={styles.indicatorContainer}>
+                <div className={styles.indicator}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </div>
     );
 }
