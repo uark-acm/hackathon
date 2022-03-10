@@ -7,6 +7,10 @@ module.exports = (phase, { defaultConfig }) => {
   const config = {
     ...defaultConfig,
     reactStrictMode: true,
+    images: {
+      loader: "imgix",
+      path: "https://uark-acm.imgix.net"
+    },
     webpack(config) {
       config.module.rules.push({
         test: /\.svg$/,
