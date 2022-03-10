@@ -50,11 +50,11 @@ const Schedule = () => {
             <div className={styles.content}>
                 <div className={styles.day}>
                     <h4>{parseDate(startDate)}</h4>
-                    <p>{displaySchedule(day1Schedule)}</p>
+                    <div className={styles.list}>{displaySchedule(day1Schedule)}</div>
                 </div>
                 <div className={styles.day}>
                     <h4>{parseDate(endDate)}</h4>
-                    <p>{displaySchedule(day2Schedule)}</p>
+                    <div className={styles.list}>{displaySchedule(day2Schedule)}</div>
                 </div>
             </div>
         </div>
