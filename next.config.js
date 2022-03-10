@@ -11,14 +11,10 @@ module.exports = (phase, { defaultConfig }) => {
       loader: "imgix",
       path: "https://uark-acm.imgix.net"
     },
-    webpackFinal: async (config, { configType }) => {
-      const rules = config.module.rules;
-      const fileLoaderRule = rules.find(rule => rule.test.test('.svg'));
-      fileLoaderRule.exclude = /\.svg$/;
-  
-      rules.push({
+    webpack(config) {
+      config.module.rules.push({
         test: /\.svg$/,
-        use: ["@svgr/webpack"],
+        use: ["@svgr/webpack"]
       });
   
       return config;
