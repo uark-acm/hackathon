@@ -13,6 +13,11 @@
 /*                   CORE SETTINGS (Update every Hackathon)                   */
 /* -------------------------------------------------------------------------- */
 /**
+ * Registration form link
+ */
+export const registrationLink = "https://forms.gle/ToU7eZXRKrMqNvmF8";
+
+/**
  * Start Date of the competition
  * Format: MM/DD/YYYY
  */
