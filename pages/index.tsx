@@ -14,6 +14,11 @@ const Home: NextPage = () => {
         <title>Hackathon</title>
         <meta name="description" content="ACM X JB Hunt Hackathon" />
         <link rel="icon" href="favicon.ico" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://uark-acm.github.io/hackathon/" />
+        <meta property="og:title" content="Hackathon" />
+        <meta property="og:description" content="Presented by Uark ACM and JB Hunt" />
+        <meta property="og:image" content="img/hero.jpg" />
       </Head>
 
       <main className={styles.main}>
