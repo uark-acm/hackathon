@@ -1,4 +1,4 @@
-import { startDate, subtitle } from '../EDITME';
+import { registrationLink, startDate, subtitle } from '../EDITME';
 import Button from './button';
 import Burst from '../public/img/burst.svg';
 import styles from '../styles/Hero.module.scss';
@@ -40,6 +40,7 @@ const Hero = () => {
                         <p>Registration is now closed. Check back later for the next hackathon!</p>
                     :
                         <Button
+                            onClick={() => window.open(registrationLink, "__blank")}
                             className={styles.cta}
                             text="Register Now"
                             variant="primary"
