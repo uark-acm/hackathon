@@ -98,3 +98,11 @@ Teams compete to develop a working prototype to present in front of a panel of j
 
 > Join the next Hackathon and push your limits!
 `;
+
+/**
+ * Details Section Image File Names
+ * Place images in the public/img directory and update the following variables with the file name(s)
+ */
+export const image1Name = "image1.jpg";
+export const image2Name = "image2.jpg";
+export const image3Name = "image3.jpg";
