@@ -18,31 +18,31 @@ const Details = () => {
                 <div className={styles.image1}>
                     <Image
                         layout="fill"
-                        src={`/img/${image1Name}`}
+                        src={`img/${image1Name}`}
                         alt=""
                         unoptimized
                         placeholder="blur"
-                        blurDataURL={`/img/${image1Name}`}
+                        blurDataURL={`img/${image1Name}`}
                     />
                 </div>
                 <div className={styles.image2}>
                     <Image
                         layout="fill"
-                        src={`/img/${image2Name}`}
+                        src={`img/${image2Name}`}
                         alt=""
                         unoptimized
                         placeholder="blur"
-                        blurDataURL={`/img/${image2Name}`}
+                        blurDataURL={`img/${image2Name}`}
                     />
                 </div>
                 <div className={styles.image3}>
                     <Image
                         layout="fill"
-                        src={`/img/${image3Name}`}
+                        src={`img/${image3Name}`}
                         alt=""
                         unoptimized
                         placeholder="blur"
-                        blurDataURL={`/img/${image3Name}`}
+                        blurDataURL={`img/${image3Name}`}
                     />
                 </div>
             </div>

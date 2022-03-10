@@ -8,11 +8,11 @@ const Footer = () => {
             <div className={styles.logo}>
                 <Image
                     layout="fill"
-                    src="/img/jbhunt.svg"
+                    src="img/jbhunt.svg"
                     alt="JB Hunt"
                     unoptimized
                     placeholder="blur"
-                    blurDataURL="/img/jbhunt.svg"
+                    blurDataURL="img/jbhunt.svg"
                 />
             </div>
             <p>24 hours to code, so grab a duck and join!</p>
