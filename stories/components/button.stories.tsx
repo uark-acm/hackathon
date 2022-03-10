@@ -14,7 +14,7 @@ Primary.args = {
 }
 
 export const Secondary = Template.bind({});
-Primary.args = {
+Secondary.args = {
     text: "Hello",
     variant: "secondary"
 }
