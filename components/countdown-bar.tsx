@@ -33,11 +33,11 @@ const CountdownBar = () => {
         setTimeout(() => {
             setTimeLeft(calculateTimeLeft());
         }, 1000)
-    }, []);
+    });
 
     return (
         <div className={styles.bar}>
-            <h1>{`${days}:${hours}:${minutes}:${seconds}`}</h1>
+            <h1 suppressHydrationWarning>{`${days}:${hours}:${minutes}:${seconds}`}</h1>
             <div>
                 <div className={styles.date}>
                     <span>{dateRange}</span> {+new Date(startDate).getFullYear()}
