@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Hackathon</title>
         <meta name="description" content="ACM X JB Hunt Hackathon" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
 
       <main className={styles.main}>
