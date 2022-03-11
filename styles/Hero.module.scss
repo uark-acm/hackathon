@@ -13,11 +13,11 @@
         
         svg {
             background: radial-gradient(ellipse at center, #CE5937 0%, transparent 70%);
-            width: 80vmin;
-            height: 80vmin;
+            width: 72vmin;
+            height: 72vmin;
             position: absolute;
-            top: calc(50% - 40vmin);
-            left: calc(50% - 40vmin);
+            top: calc(50% - 36vmin);
+            left: calc(50% - 36vmin);
             fill: $secondary;
             animation: spin 60s linear infinite;
         }
