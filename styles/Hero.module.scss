@@ -31,8 +31,9 @@
 
     .content {
         background: $background;
-        height: 50vh;
-        width: 70vw;
+        height: fit-content;
+        width: fit-content;
+        padding: 24px;
         border-radius: 64px;
         margin: auto;
         display: flex;
