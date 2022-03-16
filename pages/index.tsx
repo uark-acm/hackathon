@@ -4,6 +4,7 @@ import CountdownBar from '../components/countdown-bar'
 import Details from '../components/details'
 import Footer from '../components/footer'
 import Hero from '../components/hero'
+import Location from '../components/location'
 import Schedule from '../components/schedule'
 import styles from '../styles/Home.module.scss'
 
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Hero />
         <CountdownBar />
+        <Location />
         <Schedule />
         <Details />
       </main>
