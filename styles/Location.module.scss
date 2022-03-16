@@ -1,0 +1,53 @@
+@import "./index.module.scss";
+
+.location  {
+    background: linear-gradient(180deg, $secondary -57.84%, $background 50.1%);
+    padding: 64px;
+    color: $background_alt;
+
+    .sectionTitle {
+        margin-bottom: 0;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        div {
+            margin: 64px;
+            min-width: 200px;
+            width: calc(50% - 128px);
+            align-self: center;
+        }
+
+        .address {
+
+            p {
+                font-weight: 100;
+                font-size: 24px;
+                margin: 0;
+            }
+
+            blockquote {
+                margin: 0;
+                font-size: 24px;
+                
+                p {
+                    font-weight: 400;
+                    color: $secondary;
+                }
+            }    
+        }
+
+        .cta {
+            flex: 1;
+            justify-content: center;
+            width: max-content;
+            margin: 0 64px;
+            text-align: center;
+        }
+    }
+
+}
