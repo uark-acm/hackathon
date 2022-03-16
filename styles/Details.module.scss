@@ -3,7 +3,7 @@
 .details {
     height: fit-content;
     min-height: max(600px, 100vh);
-    background: $background;
+    background: linear-gradient(0deg, $secondary -80%, $background 50.1%);
     color: $background_alt;
     display: flex;
     flex-direction: row;

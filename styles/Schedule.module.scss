@@ -1,9 +1,13 @@
 @import "./index.module.scss";
 
 .schedule  {
-    background: linear-gradient(180deg, #EDBA6D -57.84%, #261818 50.1%);
+    background: linear-gradient(270deg, $secondary  -80%, $background_alt 70%);
     padding: 64px;
-    color: $background_alt;
+    color: $background;
+    box-shadow: 0px -10px 15px -7px $secondary, 0px 10px 15px -7px $secondary;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
 
     .sectionTitle {
         margin-bottom: 0;
