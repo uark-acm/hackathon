@@ -77,6 +77,41 @@ export const day2Schedule = [
 export const subtitle = "Presented by JB Hunt and Uark ACM";
 
 /**
+ * Location Section Text
+ * Format: Markdown
+ * This text can be styled using Markdown syntax. It's similar to the syntax used in
+ * Discord for posts and GitHub for READMEs.
+ */
+export const locationText = `
+Parking is available at the Harmon Avenue Parking Garage adjacent to the JBHT building.
+`;
+
+/**
+ * Location Address Text
+ * Format: Markdown
+ * This should match the address link set in locationLink.
+ * There are some overriding styles here that will remove the spacing between each line.
+ * Notice the arrow(>) in front of a bit of text. This markdown syntax has been overridden.
+ * The block quote is meant to apply some extra color on top of any styling placed on that text.
+ */
+export const locationAddressText = `
+> Room 216
+
+J.B. Hunt Transport Services Inc. Center for Academic Excellence (JBHT)
+
+> 227 N. Harmon Ave.
+
+> Fayetteville, AR 72701
+`;
+
+/**
+ * Location Address Link
+ * This is the link for the "Get Directions" button. This should be a google maps link.
+ * The address on the resulting page should match the locationAddressText value.
+ */
+export const locationLink = "https://g.page/JBHT_Building?share";
+
+/**
  * Event Details Section Title
  */
 export const detailsTitle = "Hack-a-thon (noun)";
