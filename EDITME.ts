@@ -131,6 +131,8 @@ export const detailsText = `
 
 Teams compete to develop a working prototype to present in front of a panel of judges. **Judges from different technical backgrounds** are sourced from different companies across NWA.
 
+There are **over $3000 worth of prizes** including 3D printers, monitors, mechanical keyboards, and an ***air fryer***.
+
 > Join the next Hackathon and push your limits!
 `;
 
