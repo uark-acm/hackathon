@@ -141,3 +141,7 @@ Teams compete to develop a working prototype to present in front of a panel of j
 export const image1Name = "image1.jpg";
 export const image2Name = "image2.jpg";
 export const image3Name = "image3.jpg";
+
+export const footerText = `
+For questions, contact <acm@uark.edu>.
+`

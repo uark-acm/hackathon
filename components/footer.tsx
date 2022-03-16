@@ -1,6 +1,8 @@
 import Image from "next/image";
-import styles from "../styles/Footer.module.scss";
+import ReactMarkdown from "react-markdown";
+import { footerText } from "../EDITME";
 import Button from "./button";
+import styles from "../styles/Footer.module.scss";
 
 const Footer = () => {
     return (
@@ -15,7 +17,7 @@ const Footer = () => {
                     blurDataURL="img/jbhunt.svg"
                 />
             </div>
-            <p>24 hours to code, so grab a duck and join!</p>
+            <ReactMarkdown>{footerText}</ReactMarkdown>
             <Button
                 className={styles.button}
                 variant="tertiary"

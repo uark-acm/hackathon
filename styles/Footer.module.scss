@@ -12,8 +12,13 @@
     p {
         text-align: right;
         margin: 0;
-        font-size: 1.9vw;
+        font-size: 1.5vw;
         font-weight: 200;
+
+        a {
+            font-weight: bolder;
+            text-decoration: underline;
+        }
     }
 
     .logo {
