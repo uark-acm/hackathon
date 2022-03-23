@@ -1,5 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Uark ACM Hackathon Website
+This website is designed to be completely reusable for every hackathon. The site is hosted using [Github Pages](https://pages.github.com/). It's accessed at https://uark-acm.github.io/hackathon/.
+
 ## Instructions for each Hackathon
 **For each hackathon**, open the [EDITME.ts](EDITME.ts) file and modify the values listed at the top. Each value has a short description above it with formatting.
 
