@@ -73,9 +73,13 @@
             font-weight: 100;
         }
 
-        .cta {
+        .cta, p {
             width: fit-content;
             margin: 32px auto 0;
+        }
+
+        p {
+            color: $secondary;
         }
     }
     
