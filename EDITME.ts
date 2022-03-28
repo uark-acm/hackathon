@@ -61,6 +61,10 @@ export const day2Schedule = [
         text: "Breakfast"
     },
     {
+        time: "12:00 PM",
+        text: "Lunch"
+    },
+    {
         time: "4:00 PM",
         text: "Closing Session"
     }
