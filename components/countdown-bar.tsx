@@ -9,7 +9,7 @@ const CountdownBar = () => {
 
         if(diff > 0) {
             return {
-                days: Math.floor(diff / (1000 * 60 * 60 * 24)),
+                days: Math.floor(diff / (1000 * 60 * 60 * 24)).toString().padStart(2, "0"),
                 hours: Math.floor((diff / (1000 * 60 * 60)) % 24).toString().padStart(2, "0"),
                 minutes: Math.floor((diff / (1000 * 60)) % 60).toString().padStart(2, "0"),
                 seconds: Math.floor((diff / 1000) % 60).toString().padStart(2, "0")
