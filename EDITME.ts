@@ -30,6 +30,20 @@ export const startDate = "04/01/2022";
 export const endDate = "04/02/2022";
 
 /**
+ * Registration Cutoff Time
+ * Format: 24-hour HH:MM:SS
+ * The time on day 1 at which the registration form should be closed
+ */
+export const registrationCutoffTime = "21:00:00";
+
+/**
+ * Countdown End Time
+ * Format: 24-hour HH:MM:SS
+ * The exact time at which the countdown runs out.
+ */
+export const countdownEndTime = "17:30:00";
+
+/**
  * Day 1 and Day 2 Schedules
  * Format (Time): H:MM AM|PM
  * Each entry in the array is an object with a time and text property.

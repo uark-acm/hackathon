@@ -1,9 +1,11 @@
-import { registrationLink, startDate, subtitle } from '../EDITME';
+import { registrationCutoffTime, registrationLink, startDate, subtitle } from '../EDITME';
 import Button from './button';
 import Burst from '../public/img/burst.svg';
 import styles from '../styles/Hero.module.scss';
 
 const Hero = () => {
+    const cutoff = new Date(startDate + " " + registrationCutoffTime);
+
     const SeasonText = () => {
         const date = new Date(startDate);
         let text = "";
@@ -36,7 +38,7 @@ const Hero = () => {
                 <h1>Hackathon</h1>
                 <h6>{subtitle}</h6>
                 {
-                    new Date(startDate) < new Date() ?
+                    cutoff < new Date() ?
                         <p>Registration is now closed. Check back later for the next hackathon!</p>
                     :
                         <Button

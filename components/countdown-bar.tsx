@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
-import { endDate, startDate } from '../EDITME';
+import { countdownEndTime, endDate, startDate } from '../EDITME';
 import styles from '../styles/CountdownBar.module.scss';
 
 const CountdownBar = () => {
-    const startTime = +new Date(startDate).getTime();
+    const startTime = +new Date(startDate + " " + countdownEndTime).getTime();
     const calculateTimeLeft = () => {
         const diff = startTime - +new Date();
 
