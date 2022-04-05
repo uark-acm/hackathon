@@ -162,6 +162,13 @@ export const image1Name = "image1.jpg";
 export const image2Name = "image2.jpg";
 export const image3Name = "image3.jpg";
 
+/**
+ * Footer Text
+ * If you change this, try to have some sort of direct contact somewhere else on the site.
+ * UofA students and staff might be able to contact ACM but if an outside company or school
+ * wants to get involved with the hackathon, they need some visible point of contact on the 
+ * site they can reach out to.
+ */
 export const footerText = `
 For questions, contact <acm@uark.edu>.
-`
+`;
