@@ -53,7 +53,7 @@ const Details = () => {
                     <Button
                         onClick={() => window.open(registrationLink, "__blank")}
                         className={styles.cta}
-                        text="Register Now"
+                        text="Sign up for email updates!"
                         variant="primary"
                     />
                 </div>
