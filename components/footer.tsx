@@ -8,14 +8,6 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.logo}>
-                <Image
-                    layout="fill"
-                    src="img/jbhunt.svg"
-                    alt="JB Hunt"
-                    unoptimized
-                    placeholder="blur"
-                    blurDataURL="img/jbhunt.svg"
-                />
             </div>
             <ReactMarkdown>{footerText}</ReactMarkdown>
             <Button
