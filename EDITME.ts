@@ -15,7 +15,7 @@
 /**
  * Registration form link
  */
-export const registrationLink = "https://forms.gle/Nz6FPMuspRtGA9FG9";
+export const registrationLink = "https://forms.gle/gFwrFeArJmq1YCMH9";
 
 /**
  * Start Date of the competition
