@@ -26,7 +26,6 @@ const Hero = () => {
             </h2>
         )
     }
-    
 
     return (
         <div className={styles.hero}>
@@ -44,7 +43,7 @@ const Hero = () => {
                         <Button
                             onClick={() => window.open(registrationLink, "__blank")}
                             className={styles.cta}
-                            text="Sign up for email updates!"
+                            text="Register Now!"
                             variant="primary"
                         />
                 }
