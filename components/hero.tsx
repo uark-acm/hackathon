@@ -26,7 +26,6 @@ const Hero = () => {
             </h2>
         )
     }
-    
 
     return (
         <div className={styles.hero}>
