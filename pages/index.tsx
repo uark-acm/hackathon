@@ -13,6 +13,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Hackathon</title>
+        <meta httpEquiv="refresh" content="0;url=https://uark-acm.github.io/hoghacks/" />
         <meta name="description" content="ACM X JB Hunt Hackathon" />
         <link rel="icon" href="favicon.ico" />
         <meta property="og:type" content="website" />
@@ -23,11 +24,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
+        {/*
         <Hero />
         <CountdownBar />
         <Location />
         <Schedule />
         <Details />
+        */}
       </main>
 
       <Footer />
